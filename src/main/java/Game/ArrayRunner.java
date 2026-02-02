@@ -26,7 +26,7 @@ public class ArrayRunner {
 
         ArrayList<Integer> numbers = new ArrayList<>();
         numbers.add(5);
-        numbers.add(12);
+        numbers.add(10);
 
 //        for(int i=0; i<numbers.size(); i++){
 //            System.out.println(i);
