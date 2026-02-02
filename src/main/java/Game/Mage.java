@@ -41,4 +41,9 @@ public class Mage extends Character implements AdditionalMethods{
         System.out.println("Player is teleported to X = " + xAxis + "and Y = " + yAxis);
         System.out.println("Y is the first Parameter");
     }
+
+    @Override
+    public void attack(){
+        System.out.println("Mage Attacked");
+    }
 }

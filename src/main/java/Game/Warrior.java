@@ -29,4 +29,9 @@ public class Warrior extends Character{
     public void displayMainData(){
         System.out.println(this.getName());
     }
+
+    @Override
+    public void attack(){
+        System.out.println("Warrior Attacked");
+    }
 }

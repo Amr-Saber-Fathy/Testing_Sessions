@@ -115,7 +115,7 @@ public abstract class Character {
         this.run();
     }
 
-    private void attack(){
+    public void attack(){
         System.out.println("Character Attacked");
     }
 

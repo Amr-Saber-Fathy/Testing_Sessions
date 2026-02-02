@@ -25,4 +25,9 @@ public class Archer extends Character {
         System.out.println("Gender: " + this.getGender());
         System.out.println("PB: " + this.getPB());
     }
+
+//    @Override
+//    public void attack(){
+//        System.out.println("Archer Attacked");
+//    }
 }
